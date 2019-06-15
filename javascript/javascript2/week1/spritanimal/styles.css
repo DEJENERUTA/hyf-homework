@@ -1,0 +1,52 @@
+#heading {
+    background-color: blue;
+    border: 5px solid lightgrey;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.text {
+    border: 5px solid darkred;
+    text-align: center;
+    width: 50;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+body {
+    width: 75%;
+    margin-left: 5%;
+    border: 5px solid darkgreen;
+    background-color: lightblue;
+
+}
+
+.maindiv{
+    border: 5px solid lightblue;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#firstName {
+    widows: 70%;
+
+}
+
+#btn {
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+#generalText {
+    text-align: center;
+}
+
