@@ -5,9 +5,9 @@
 
 
 
-let   firstName;
-let   lastName;
-let  useFormalName;
+let   firstName =xxx;
+let   lastName =yyy;
+let  useFormalFullName =zzz;
    
     function getFormalFullName(firstName, lastName, useFormalName) {
         if (useFormalName) {
