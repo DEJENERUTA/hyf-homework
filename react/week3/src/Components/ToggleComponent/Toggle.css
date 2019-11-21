@@ -1,0 +1,74 @@
+.ToggleText {
+  color: black;
+  font-size:5px;
+}
+.Counter-App {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  padding:20px 20px;
+  background: rgb(185, 141, 171);
+  display: block;
+  margin: auto auto;
+  text-align: center;
+  
+}
+.counter-count {
+  border-radius: 50%;
+  background: rgb(73, 209, 209);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border: silver 20px solid;
+}
+.counter-count h3 {
+  display: inline-block;
+  align-content: center;
+  padding: 0 10px;
+  font-size: 80px;
+  line-height: 50px;
+  color: #E1F6F4;
+  margin-top: 45px;
+}
+.cool-counter > div {
+  padding:10px 10px;
+  margin: auto auto;
+}
+button {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 3px;
+  background: #E1F6F4;
+  color: #07588A;
+  cursor: pointer;
+  font-size: 22px;
+  width:130px;
+}
+button:hover {
+  margin-bottom: -2px;
+  border-bottom: 2px solid rgb(73, 209, 209);
+  color:rgb(73, 209, 209);
+  font-weight: 3px;
+  background-color:rgb(160, 133, 165);
+}
+button:focus {
+  outline: 0;
+}
+button + button {
+  margin-left: 20px;
+}
+input {
+width: 180px;
+  padding: 5px 0 5px 15px;
+  color: #07588A;
+  background: #E1F6F4;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 3px;
+}
+input:focus {
+  outline-color: #07588A;
+}
